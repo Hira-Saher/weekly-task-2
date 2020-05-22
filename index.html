@@ -10,7 +10,7 @@
 
 <body>
     <div class="main">
-             <div class="container">
+        <div class="container">
             <img src="https://pngimg.com/uploads/google/google_PNG19644.png" alt="logo" class="logo">
             <form>
                 <h1>Create your Google Account</h1>
@@ -18,8 +18,9 @@
                     <input type="text" name="firstname" placeholder="First Name" required>
                     <input type="text" name="lastname" placeholder="Last Name" required>
 
-                    <input type="email" name="email" placeholder="Username" value="@gmail.com" required>
-                    <!-- <span>@gmail.com</span> -->
+                    <label data-domain="gmail.com">
+                        <input type="text" placeholder="Username" id="email" />
+                    </label>
 
                     <p>You can use letters, numbers & periods</p>
                     <br>
@@ -37,7 +38,6 @@
                 </div>
             </form>
         </div>
-    
 
         <div class="fig">
             <figure>
@@ -55,7 +55,7 @@
             <option lang="de" value="deutsch">Deutsch</option>
             <option lang="fr" value="francais">Français</option>
             <option lang="it" value="italiano">Italiano</option>
-          </select>
+        </select>
         <ul>‪
             <li><a href="#">Help</a></li>
             <li><a href="#">Privacy</a></li>
